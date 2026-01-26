@@ -44,7 +44,7 @@ sns.scatterplot(
     data=test_df,
     x='sepal width',
     y='petal width',
-    hue='correct',   # True = correct, False = incorrect
+    hue='correct',
     style='correct',
     s=100,
     palette={True: 'green', False: 'red'}

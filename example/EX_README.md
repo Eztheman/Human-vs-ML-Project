@@ -31,7 +31,7 @@ Predicted Attribute: Class of Iris Plant
 
 ### Pseudo-Code
 ```text
-The clearest difference is iris classification is visible when sepal width is compared to petal width, so the human-algorithm is:
+The clearest difference is iris classification is visible when petal width is compared over different species, so the human-algorithm is:
 
     IF petal_width < 0.6:
         Predict Setosa
