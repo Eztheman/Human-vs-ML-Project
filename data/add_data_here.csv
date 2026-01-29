@@ -1,6 +1,8 @@
 import kagglehub
+import matplotlib.pyplot as plt
 
 # Download latest version
 path = kagglehub.dataset_download("ishanjha100/student-passfail-data")
 
 print("Path to dataset files:", path)
+
